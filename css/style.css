@@ -52,6 +52,15 @@ margin: 0 auto;
 .collonna-9 {
     width:  calc((100%/4)*2);
 }
+.collonna-10 {
+    width: calc((100%/4)*1);
+}
+.collonna-11 {
+    width: calc((100%/4)*3);
+}
+.collonna-12 {
+    width: calc((100%/4));
+}
 
 
 
@@ -83,6 +92,21 @@ MAIN
 }
 .gray{
     background-color: gray;
+}
+/*
+FOOTER
+*/
+
+footer{
+    background-color: black;
+}
+.footer-top {
+    padding: 40px 0;
+}
+.footer-bottom .finale {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
 }
 
 /*
@@ -161,6 +185,32 @@ DEBUG
     min-height: 400px;
     
 }
+.debug .prima-parte { 
+    background-color: red;
+}
+
+.debug .prima-parte > * {
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug .seconda-parte { 
+    background-color: blue;
+}
+
+.debug .seconda-parte > * {
+    border: 1px dashed white;
+    min-height: 400px;
+}
+.debug .finale  {
+background-color: aquamarine;
+
+}
+.debug .finale > *  {
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 10px;
+    }
+
 
 
 
