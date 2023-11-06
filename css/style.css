@@ -2,7 +2,7 @@
 RESET
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +13,12 @@ GENERAL
 */
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+.container2 {
+max-width: 800px;
+margin: 0 auto;
 }
 
 .riga {
@@ -22,31 +26,31 @@ GENERAL
     flex-wrap: wrap;
 }
 .collonna-1 {
-    width: calc(100%/6);
+    width: calc((100%/6)*1);
 }
 .collonna-2 {
-    width: calc(100%/2);
+    width: calc((100%/6)*4);
 }
 .collonna-3 {
-    width: calc(100%/6);
+    width: calc((100%/6)*1);
 }
 .collonna-4 {
-    width: calc(100%/4);
+    width: calc((100%/5)*2);
 }
 .collonna-5 {
-    width:  calc(100%/6);
+    width:  calc((100%/5)*3);
 }
 .collonna-6 {
-    width:  calc(100%/6);
+    width:  calc((100%/5)*3);
 }
 .collonna-7 {
-    width:  calc(100%/4);
+    width:  calc((100%/5)*2);
 }
 .collonna-8 {
-    width:  calc(100%/4);
+    width:  calc((100%/4)*2);
 }
 .collonna-9 {
-    width:  calc(100%/4);
+    width:  calc((100%/4)*2);
 }
 
 
@@ -56,13 +60,29 @@ HEADER
 */
 
 .header-top .container-row {
-    height: 30px;
+    /*height: 40px;*/
 }
+.header-top .container-row > * {
+    padding: 10px; 
+}
+.header-top .container-row > .link-container {
+    text-align: center; 
+}
+.header-top .container-row > .login-container {
+    text-align: right; 
+}
+.header-bottom {
+    padding: 50px;
+}
+
 /*
 MAIN
 */
-.debug .main-container-row {
-    padding: 40px;
+.main-container-row {
+    padding: 40px 0;
+}
+.gray{
+    background-color: gray;
 }
 
 /*
@@ -72,7 +92,8 @@ DEBUG
 
 .debug .header-top {
     background-color: aqua;
-    height: 50px;
+    height: 60px;
+    padding-top: 10px 0;
 }
 
 
@@ -133,6 +154,12 @@ DEBUG
     border: 1px dashed black;
     min-height: 400px;
 
+}
+.debug main section .green {
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 400px;
+    
 }
 
 
