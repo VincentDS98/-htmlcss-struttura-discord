@@ -16,6 +16,7 @@ GENERAL
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .riga {
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +34,9 @@ GENERAL
 HEADER
 */
 
-
+.header-top .container-row {
+    height: 30px;
+}
 
 
 /*
@@ -41,7 +44,7 @@ DEBUG
 */
 
 
-.header-top {
+.debug .header-top {
     background-color: aqua;
     height: 50px;
 }
@@ -56,8 +59,17 @@ DEBUG
     border: 1px dashed black;
 }
 
-.header-top .container-row {
-    height: 30px;
+
+
+.debug .header-bottom {
+    background-color: blue;
+    min-width: 600px;
+}
+
+.debug .header-bottom .finestra{
+    background-color: fuchsia;
+    border: 1px dashed black;
+    min-height: 500px ;
 }
 
 
