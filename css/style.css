@@ -1,0 +1,66 @@
+/*
+RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+GENERAL
+*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.riga {
+    display: flex;
+    flex-wrap: wrap;
+}
+.collonna-1 {
+    width: calc(100%/6);
+}
+.collonna-2 {
+    width: calc(100%/2);
+}
+.collonna-3 {
+    width: calc(100%/6);
+}
+/*
+HEADER
+*/
+
+
+
+
+/*
+DEBUG
+*/
+
+
+.header-top {
+    background-color: aqua;
+    height: 50px;
+}
+
+
+
+.debug .header-top .riga {
+    background-color: orange;
+}
+
+.debug .header-top .riga > * {
+    border: 1px dashed black;
+}
+
+.header-top .container-row {
+    height: 30px;
+}
+
+
+
+
+
