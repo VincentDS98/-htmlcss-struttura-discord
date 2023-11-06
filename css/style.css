@@ -30,6 +30,27 @@ GENERAL
 .collonna-3 {
     width: calc(100%/6);
 }
+.collonna-4 {
+    width: calc(100%/4);
+}
+.collonna-5 {
+    width:  calc(100%/6);
+}
+.collonna-6 {
+    width:  calc(100%/6);
+}
+.collonna-7 {
+    width:  calc(100%/4);
+}
+.collonna-8 {
+    width:  calc(100%/4);
+}
+.collonna-9 {
+    width:  calc(100%/4);
+}
+
+
+
 /*
 HEADER
 */
@@ -37,7 +58,12 @@ HEADER
 .header-top .container-row {
     height: 30px;
 }
-
+/*
+MAIN
+*/
+.debug .main-container-row {
+    padding: 40px;
+}
 
 /*
 DEBUG
@@ -66,10 +92,47 @@ DEBUG
     min-width: 600px;
 }
 
-.debug .header-bottom .finestra{
+.debug .header-bottom .finestra {
     background-color: fuchsia;
     border: 1px dashed black;
     min-height: 500px ;
+}
+
+.debug main .container .riga .collonna-4 {
+    background-color:aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-5 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-6 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-7 {
+    background-color: aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-8 {
+    background-color: aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-9 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+
 }
 
 
